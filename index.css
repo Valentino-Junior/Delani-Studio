@@ -1,0 +1,24 @@
+body{
+    margin: 30px;
+
+}
+.topper{
+    background-image: url(Assets/background/h_img.jpg);
+background-size: cover;
+background-attachment: scroll;
+background-position: center;
+height: 600px;
+}
+.img-bg-1{
+margin-left: 560px;
+margin-top:160px ;
+}
+.top-p1{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+.top-p2{
+    color: white;
+    text-align: center; 
+}
