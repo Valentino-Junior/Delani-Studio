@@ -45,4 +45,6 @@ body{
 #serve-item{
     padding-top: 120px;
 }
-
+.item{
+    text-align: center;
+}
