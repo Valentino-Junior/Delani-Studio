@@ -3,15 +3,15 @@ body{
 
 }
 .topper{
-    background-image: url(Assets/background/h_img.jpg);
+background-image: url(Assets/background/h_img.jpg);
 background-size: cover;
 background-attachment: scroll;
 background-position: center;
-height: 600px;
+height: 800px;
 }
 .img-bg-1{
 margin-left: 560px;
-margin-top:160px ;
+margin-top:270px ;
 }
 .top-p1{
     color: white;
@@ -21,4 +21,10 @@ margin-top:160px ;
 .top-p2{
     color: white;
     text-align: center; 
+    font-size: 14px;
+    font-weight:500
+}
+.img-bg-2{
+    margin-left: 600px; 
+    margin-bottom: -280px;
 }
