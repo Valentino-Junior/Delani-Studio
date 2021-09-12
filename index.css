@@ -38,4 +38,10 @@ body{
     background-attachment: scroll;
     background-position: center;
     height: 400px;
+    text-align: center;
+    color: white;
+    
+}
+#serve-item{
+    padding-top: 120px;
 }
