@@ -33,3 +33,13 @@ $(document).ready(function () {
         })
     })
 })
+
+//Portfolio
+$(document).ready(function () {
+    $(".work4").mouseenter(function () {
+        $("#hover4").show()
+        $(".work4").mouseleave(function () {
+            $("#hover4").hide()
+        })
+    })
+})
