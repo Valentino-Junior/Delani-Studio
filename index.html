@@ -111,55 +111,76 @@
         </div>
     </section>
 
-    <br><br><br<br>
-    <!--Portfolio-->
-    <section>
-        <div class="portfolio">
-        <h1>PORTFOLIO</h1>
-        <br>
-            <div class="container">
-                <div class="row">
+    <br><br>
+    <br<br>
+        <!--Portfolio-->
+        <section>
+            <div class="portfolio">
+                <h1>PORTFOLIO</h1>
+                <br>
+                <div class="container">
+                    <div class="row">
 
-                    <div class="col-md-3">
-                        <img class="work" src="Assets/portofolio/work4.jpg">
-                        <p></p>
-                    </div>
+                        <div class="col-md-3">
+                            <img id="work4" class="work" src="Assets/portofolio/work4.jpg">
+                            <p class="work4" style="display: none;">GREY STUDIO</p>
+                        </div>
 
-                    <div class="col-md-3">
-                        <img class="work " src="Assets/portofolio/work3.jpg">
-                    </div>
+                        <div class="col-md-3">
+                            <div class="work3">
+                                <img class="work " src="Assets/portofolio/work3.jpg">
+                                <p style="display: none;">MIGHTY ONTARIO SECURITY</p>
+                            </div>
+                        </div>
 
-                    <div class="col-md-3">
-                        <img class="work" src="Assets/portofolio/work2.jpg">
-                    </div>
+                        <div class="col-md-3">
+                            <div class="work2">
+                                <img class="work" src="Assets/portofolio/work2.jpg">
+                                <p style="display: none;"> GOLDEN PYRAMIDS</p>
+                            </div>
+                        </div>
 
-                    <div class="col-md-3">
-                        <img class="work" src="Assets/portofolio/work1.jpg">
+                        <div class="col-md-3">
+                            <div class="work1">
+                                <img class="work" src="Assets/portofolio/work1.jpg">
+                                <p style="display: none;">JIM CARREY</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="work5">
+                                    <img class="work" src="Assets/portofolio/work5.jpg">
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="work6">
+                                    <img class="work" src="Assets/portofolio/work6.jpg">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="work7">
+                                    <img class="work" src="Assets/portofolio/work7.jpg">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="work8">
+                                    <img class="work" src="Assets/portofolio/work8.jpg">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="work" src="Assets/portofolio/work5.jpg">
-                    </div>
-
-                    <div class="col-md-3">
-                        <img class="work" src="Assets/portofolio/work6.jpg">
-                    </div>
-
-                    <div class="col-md-3">
-                        <img class="work" src="Assets/portofolio/work7.jpg">
-                    </div>
-
-                    <div class="col-md-3">
-                        <img class="work" src="Assets/portofolio/work8.jpg">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 </body>
 
-
+<script>
+    $(document).ready(function () {
+        $("#work4").hover(function () {
+            $(".work4").slideToggle()
+        })
+    })
+</script>
 
 </html>
