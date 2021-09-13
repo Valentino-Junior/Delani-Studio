@@ -108,3 +108,20 @@ $(document).ready(function () {
         })
     })
 })
+
+//Inputs
+$(document).ready(function () {
+    
+    $("#submit").click(function (e) {
+        e.preventDefault()
+    var a = $("#name").val()
+    var b = $("#email").val()   
+    var c = $("#comments").val()
+    if (b !== "@") {
+       alert("Invalid email")
+   
+    }
+})
+})
+
+alert("Hello " + a + ", we have received your message. Thank you for reaching out to us")
