@@ -1,3 +1,4 @@
+//Bussiness or back-end logic
 // Design
  $(document).ready(function () {
     $(".design").click(function () {
@@ -109,6 +110,8 @@ $(document).ready(function () {
     })
 })
 
+
+//User interface or front-end logic
 //Inputs
 $(document).ready(function () {
     
@@ -117,11 +120,13 @@ $(document).ready(function () {
     var a = $("#name").val()
     var b = $("#email").val()   
     var c = $("#comments").val()
-    if (b !== "@") {
-       alert("Invalid email")
-   
+
+    if (a && b && c!== "") {
+        alert("Hello " + a + ", we have received your message. Thank you for reaching out to us")
+    } else {
+        alert("Incomplete!!! Fill the form")
     }
+    
 })
 })
 
-alert("Hello " + a + ", we have received your message. Thank you for reaching out to us")
