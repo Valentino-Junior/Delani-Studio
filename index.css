@@ -52,3 +52,11 @@ body{
 .portfolio{
     margin: 2px;
 }
+.work{
+   
+    max-height: 100%;
+   max-width: 106%;
+}
+.portfolio h1{
+text-align: center;
+}
