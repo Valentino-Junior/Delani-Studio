@@ -10,10 +10,10 @@ The website is divided into seven categories. The Welcome Section, About Section
 3. When you fill out the contact-us form, your information and message will be forwarded to mailchimp, and you will     receive a confirmation message thanking you for contacting them.
 4. In the event that the submit form is submitted without any values, a warning message will pop up, instructing you to fill up the form with correct information.
 # Setup/Installation Requirements { 
-  1. Using git -clone, clone the project. You can download the files as a zip folder if you are unable to clone it.
-  2. Make sure you have the entire file.
-  3. Navigate to the index.html file in the folder's root directory. The program is static, relying just on HTML and CSS to function.
-  4. You may visit the program by pasting the index.html file's location into your browser.
+  1. Using git -clone, clone the project to your local machine. 
+  2. You can download the files as a zip folder if you are unable to clone it.
+  3. To examine the code, use a text editor such as Visual Studio Code, atom, notepad, or any other.
+  4. To get a sense of how the site looks and feels, open it in a web browser.
 # Live Link
 https://valentine-ochieng.github.io/Delani-Studio/
 # Technologies Used
