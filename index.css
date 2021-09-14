@@ -86,3 +86,15 @@ text-align: center;
 .copy{
     text-align: center;
 }
+#email ::placeholder{
+    color: white;
+    font-weight: bold;
+}
+#name ::placeholder{
+    color: white;
+    font-weight: bold;
+}
+#comments ::placeholder{
+    color: white;
+    font-weight: bold;
+}
