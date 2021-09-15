@@ -90,7 +90,6 @@ text-align: center;
 .copy{
     text-align: center;
 }
-:: placeholder{
+.form-control::-webkit-input-placeholder {
     color: white;
-    font-weight: bold;
-}
+  }
