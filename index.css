@@ -92,4 +92,5 @@ text-align: center;
 }
 .form-control::-webkit-input-placeholder {
     color: white;
+    font-weight: bold;
   }
