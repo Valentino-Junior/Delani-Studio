@@ -113,20 +113,20 @@ $(document).ready(function () {
 
 //User interface or front-end logic
 //Inputs
-$(document).ready(function () {
+// $(document).ready(function () {
     
-    $("#submit").click(function (e) {
-        e.preventDefault()
-    var a = $("#name").val()
-    var b = $("#email").val()   
-    var c = $("#comments").val()
+//     $("form").submit(function (e) {
+//         e.preventDefault()
+//     var a = $("#name").val()
+//     var b = $("#email").val()   
+//     var c = $("#comments").val()
 
-    if (a && b && c!== "") {
-        alert("Hello " + a + ", we have received your message. Thank you for reaching out to us")
-    } else {
-        alert("Incomplete!!! Fill the form")
-    }
+//     if (a && b && c!== "") {
+//         alert("Hello " + a + ", we have received your message. Thank you for reaching out to us")
+//     } else {
+//         alert("Incomplete!!! Fill the form")
+//     }
     
-})
-})
+// })
+// })
 
